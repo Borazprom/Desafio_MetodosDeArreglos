@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+}
+.seccionBody {
+    border:1px solid black;
+    padding: 20px;
+    background-color: rgb(222, 224, 224);
+    max-height:auto ;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.tituloSecundario {
+    margin-top: 32px;
+    font-size: 20px;
+}
+.seccionAgregar {
+    display: flex;
+    align-items: center;
+}
+.tareaInput {
+    border: 1px solid ;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.botonAgregar {
+    height: 42px;
+    padding: 8px;
+    margin-left: 8px ;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(13, 156, 13);
+    color: white;
+}
+.seccionMain {
+   display: flex;
+   flex-direction: row;
+   margin-top: 24px;
+}
+.seccionEstatus{ 
+    width: 50%;
+}
+.total {
+    margin-bottom: 10px;
+}
+.secciontTreas {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.id {
+    width: 15%;
+}
+.tareas{
+    width: 35%;
+}
