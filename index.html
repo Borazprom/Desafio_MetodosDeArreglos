@@ -19,22 +19,21 @@
           class="tareaInput"
           placeholder="Agregar nueva tarea"
         />
-        <button id="botonAgregar" class="botonAgregar">Agregar</button>
+        <button onclick="" id="botonAgregar" class="botonAgregar">
+          Agregar
+        </button>
       </div>
 
       <div class="seccionMain">
         <div class="seccionEstatus" id="seccionEstatus">
-          <p class="total">Total: 0</p>
-          <p class="realizadas">Realizadas: 0</p>
+          <p class="total">Total: <span id="total"></span></p>
+          <p class="realizadas" id="realizadas">Realizadas: 0</p>
         </div>
 
-        <div class="secciontTreas">
-          <p class="id">ID</p>
-          <p class="tareas">Tareas</p>
-        </div>
+        <ul class="secciontTareas" id="seccionTareas"></ul>
       </div>
     </div>
 
-    <script src="assets/script.jss"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>

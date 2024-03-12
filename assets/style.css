@@ -59,10 +59,10 @@ h1 {
 .total {
     margin-bottom: 10px;
 }
-.secciontTreas {
+/* .secciontTareas {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 50%; */
 }
 .id {
     width: 15%;
